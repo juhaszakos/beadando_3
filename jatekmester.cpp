@@ -33,7 +33,7 @@ void Jatekmester::event_loop()
     event ev;
     int focus = -1;
     while(gin >> ev ) {
-        if (ev.type == ev_mouse && ev.button==btn_left) {
+        if (ev.type == ev_mouse && ev.button==btn_left ) {
             for (size_t i=0;i<m.size();i++) {
                 if (m[i]->is_selected(ev.pos_x, ev.pos_y) && !m[i]->getKattintva()) {
                         focus = i;
@@ -52,10 +52,16 @@ void Jatekmester::event_loop()
         }
         if (focus!=-1) {
             m[focus]->handle(jatekos);
+            int x = (int)focus/motor->getMatrix().size();
+            int y = focus % motor->getMatrix().size();
+            motor->setMatrix(x,y,jatekos);
+            //cout<<"X= "<<x<<" Y= "<<y<<endl;
+
         }
         for (Widget * w : m) {
             w->draw();
         }
+
         gout << refresh;
 
     }

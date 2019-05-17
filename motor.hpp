@@ -8,6 +8,7 @@ class Motor
     public:
         Motor(int darab);
         vector<vector<int>> getMatrix();
+        void setMatrix(int x,int y,int jatekos);
     protected:
         vector<vector<int>> matrix;
 

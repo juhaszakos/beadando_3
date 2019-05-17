@@ -22,3 +22,7 @@ vector<vector<int>> Motor:: getMatrix()
 {
     return matrix;
 }
+
+void Motor::setMatrix(int x,int y,int value){
+    matrix[x][y] = value;
+}
