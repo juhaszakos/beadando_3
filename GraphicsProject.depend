@@ -1,14 +1,14 @@
 # depslib dependency file v1.0
-1558116329 source:c:\users\Ákos\documents\ppke-itk\2.félév\bevprog2\3.beadandó\motor.cpp
+1558299775 source:c:\users\Ákos\documents\ppke-itk\2.félév\bevprog2\3.beadandó\motor.cpp
 	"motor.hpp"
 
-1558121053 c:\users\Ákos\documents\ppke-itk\2.félév\bevprog2\3.beadandó\motor.hpp
+1558298855 c:\users\Ákos\documents\ppke-itk\2.félév\bevprog2\3.beadandó\motor.hpp
 	<vector>
 
 1558116316 source:c:\users\Ákos\documents\ppke-itk\2.félév\bevprog2\3.beadandó\main.cpp
 	"jatekmester.hpp"
 
-1558118384 c:\users\Ákos\documents\ppke-itk\2.félév\bevprog2\3.beadandó\jatekmester.hpp
+1558289973 c:\users\Ákos\documents\ppke-itk\2.félév\bevprog2\3.beadandó\jatekmester.hpp
 	"mezo.hpp"
 	"graphics.hpp"
 	"widgets.hpp"
@@ -41,9 +41,8 @@
 1558119503 source:c:\users\Ákos\documents\ppke-itk\2.félév\bevprog2\3.beadandó\mezo.cpp
 	"mezo.hpp"
 
-1558119468 source:c:\users\Ákos\documents\ppke-itk\2.félév\bevprog2\3.beadandó\jatekmester.cpp
+1558299636 source:c:\users\Ákos\documents\ppke-itk\2.félév\bevprog2\3.beadandó\jatekmester.cpp
 	"jatekmester.hpp"
 	"graphics.hpp"
 	"mezo.hpp"
-	<iostream>
 

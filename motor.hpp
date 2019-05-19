@@ -9,6 +9,11 @@ class Motor
         Motor(int darab);
         vector<vector<int>> getMatrix();
         void setMatrix(int x,int y,int jatekos);
+        bool oszlopvizsgalat(int jatekos,int darab);
+        bool soropvizsgalat(int jatekos,int darab);
+        bool atlovizsgalat1(int jatekos,int darab);
+        bool atlovizsgalat2(int jatekos,int darab);
+        bool telivizsgalat(int darab);
     protected:
         vector<vector<int>> matrix;
 

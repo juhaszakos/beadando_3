@@ -16,6 +16,7 @@ class Jatekmester
     int kepernyo_meret;
     double mezo_meret;
     int jatekos;
+    bool win=false;
 
     public:
         Jatekmester();
